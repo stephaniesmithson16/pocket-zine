@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2019D70F28A7031B00449680 /* PoetryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D70E28A7031B00449680 /* PoetryApp.swift */; };
+		2019D71128A7031B00449680 /* PoetryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D71028A7031B00449680 /* PoetryBookView.swift */; };
+		2019D71328A7031C00449680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2019D71228A7031C00449680 /* Assets.xcassets */; };
+		2019D71628A7031C00449680 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2019D71528A7031C00449680 /* Preview Assets.xcassets */; };
+		2019D71E28A7033900449680 /* PoemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D71D28A7033900449680 /* PoemView.swift */; };
+		2019D72228A7049000449680 /* Poem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D72128A7049000449680 /* Poem.swift */; };
+		2019D72428A7053500449680 /* PoemBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D72328A7053500449680 /* PoemBook.swift */; };
+		2019D72728A705C400449680 /* PoemDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D72628A705C400449680 /* PoemDataService.swift */; };
+		20A8C0E1294443B800758D68 /* poems.json in Resources */ = {isa = PBXBuildFile; fileRef = 20A8C0E0294443B800758D68 /* poems.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2019D70B28A7031B00449680 /* Poetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2019D70E28A7031B00449680 /* PoetryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryApp.swift; sourceTree = "<group>"; };
+		2019D71028A7031B00449680 /* PoetryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryBookView.swift; sourceTree = "<group>"; };
+		2019D71228A7031C00449680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2019D71528A7031C00449680 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2019D71D28A7033900449680 /* PoemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemView.swift; sourceTree = "<group>"; };
+		2019D72128A7049000449680 /* Poem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poem.swift; sourceTree = "<group>"; };
+		2019D72328A7053500449680 /* PoemBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemBook.swift; sourceTree = "<group>"; };
+		2019D72628A705C400449680 /* PoemDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemDataService.swift; sourceTree = "<group>"; };
+		20A8C0E0294443B800758D68 /* poems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = poems.json; path = ../../../../../../../../Downloads/poems.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2019D70828A7031B00449680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2019D70228A7031B00449680 = {
+			isa = PBXGroup;
+			children = (
+				2019D70D28A7031B00449680 /* Poetry */,
+				2019D70C28A7031B00449680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2019D70C28A7031B00449680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2019D70B28A7031B00449680 /* Poetry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2019D70D28A7031B00449680 /* Poetry */ = {
+			isa = PBXGroup;
+			children = (
+				2019D72528A705A400449680 /* Data */,
+				2019D72A28A81A3100449680 /* Services */,
+				2019D72028A7047E00449680 /* Models */,
+				2019D71F28A7047500449680 /* ModelViews */,
+				2019D71C28A7032500449680 /* Views */,
+				2019D70E28A7031B00449680 /* PoetryApp.swift */,
+				2019D71228A7031C00449680 /* Assets.xcassets */,
+				2019D71428A7031C00449680 /* Preview Content */,
+			);
+			path = Poetry;
+			sourceTree = "<group>";
+		};
+		2019D71428A7031C00449680 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2019D71528A7031C00449680 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2019D71C28A7032500449680 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2019D71D28A7033900449680 /* PoemView.swift */,
+				2019D71028A7031B00449680 /* PoetryBookView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2019D71F28A7047500449680 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				2019D72328A7053500449680 /* PoemBook.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		2019D72028A7047E00449680 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2019D72128A7049000449680 /* Poem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2019D72528A705A400449680 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				20A8C0E0294443B800758D68 /* poems.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2019D72A28A81A3100449680 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2019D72628A705C400449680 /* PoemDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2019D70A28A7031B00449680 /* Poetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2019D71928A7031C00449680 /* Build configuration list for PBXNativeTarget "Poetry" */;
+			buildPhases = (
+				2019D70728A7031B00449680 /* Sources */,
+				2019D70828A7031B00449680 /* Frameworks */,
+				2019D70928A7031B00449680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poetry;
+			productName = Poetry;
+			productReference = 2019D70B28A7031B00449680 /* Poetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2019D70328A7031B00449680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2019D70A28A7031B00449680 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2019D70628A7031B00449680 /* Build configuration list for PBXProject "Poetry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2019D70228A7031B00449680;
+			productRefGroup = 2019D70C28A7031B00449680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2019D70A28A7031B00449680 /* Poetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2019D70928A7031B00449680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2019D71628A7031C00449680 /* Preview Assets.xcassets in Resources */,
+				20A8C0E1294443B800758D68 /* poems.json in Resources */,
+				2019D71328A7031C00449680 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2019D70728A7031B00449680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2019D72728A705C400449680 /* PoemDataService.swift in Sources */,
+				2019D71128A7031B00449680 /* PoetryBookView.swift in Sources */,
+				2019D70F28A7031B00449680 /* PoetryApp.swift in Sources */,
+				2019D72228A7049000449680 /* Poem.swift in Sources */,
+				2019D72428A7053500449680 /* PoemBook.swift in Sources */,
+				2019D71E28A7033900449680 /* PoemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2019D71728A7031C00449680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2019D71828A7031C00449680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2019D71A28A7031C00449680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poetry/Preview Content\"";
+				DEVELOPMENT_TEAM = 24H35SR489;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephdesigns.Poetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2019D71B28A7031C00449680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poetry/Preview Content\"";
+				DEVELOPMENT_TEAM = 24H35SR489;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephdesigns.Poetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2019D70628A7031B00449680 /* Build configuration list for PBXProject "Poetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2019D71728A7031C00449680 /* Debug */,
+				2019D71828A7031C00449680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2019D71928A7031C00449680 /* Build configuration list for PBXNativeTarget "Poetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2019D71A28A7031C00449680 /* Debug */,
+				2019D71B28A7031C00449680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2019D70328A7031B00449680 /* Project object */;
+}
